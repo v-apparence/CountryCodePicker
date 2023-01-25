@@ -10,7 +10,11 @@ dependencies:
   flutter:
     sdk: flutter
 
-  modal_bottom_sheet: ^2.0.0
+  modal_bottom_sheet:
+    git:
+      url: https://github.com/eli1stark/modal_bottom_sheet.git
+      ref: 2b3f9f84f46418c1b337968c88883995f65f47e7
+      path: modal_bottom_sheet
   collection: ^1.15.0
   universal_platform: ^1.0.0+1
 
